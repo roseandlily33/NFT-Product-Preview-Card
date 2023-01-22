@@ -1,0 +1,31 @@
+:root {
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --VerydarkblueMain: hsl(217, 54%, 11%);
+    --VerydarkblueCard: hsl(216, 50%, 16%);
+    --VerydarkblueLine: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: var(--);
+    font-size: var(--);
+    font-family: var(--);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+h1 {}
