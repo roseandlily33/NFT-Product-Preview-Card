@@ -25,52 +25,81 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: var(--VerydarkblueMain);
+    font-family: var(--Outfit);
+    padding-block: 10em;
+}
 
 .container {
-    background-color: var(--VerydarkblueMain);
-    font-size: var(--step-0);
-    font-family: var(--Outfit);
-    color: var(--Softblue);
     display: flex;
-    align-content: center;
-    justify-content: center;
-    height: 100vh;
+    flex-direction: column;
+    background-color: var(--VerydarkblueCard);
+    flex-wrap: wrap;
+    flex-grow: 5 2 auto;
+    color: var(--Softblue);
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 2em;
+    max-width: 70%;
 }
 
 img {
     border-radius: 5px;
-    max-width: 100%;
+    max-width:95%;
+    padding: 1em;
+    border-radius: 2em;
+    margin: 0 auto;
+    
 }
-
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex-wrap: wrap;
+    padding: 1em;
+}
 h1 {
     color: var(--White);
     font-weight: bold;
+    font-size: var(--step-2);
 }
 p{
     line-height: 2em;
+    font-size: var(--step--2);
 
 }
 .info{
     display: flex;
+    font-size: var(--step--1);
     flex-direction: row;
-    justify-content: space-evenly;
+    align-content: space-around;
+    
+}
+hr{
+    color: var(--VerydarkblueLine);
+    max-width: 100%;
 }
 .eth{
     color: var(--Cyan);
-    font-weight: bold;
-
 }
 .days{
-
-
+   padding-left: 3em;
 }
 .user{
     display: flex;
     flex-direction: row;
+    font-size: var(--step--2);
+   
 }
 .user img{
-    border-radius: 100%;
+    border-radius: 50%;
+    width: 30%;
     border: 1px solid white;
+    padding: 0;
+}
+.user h4{
+    align-self: center;
 }
 .user span{
     color: var(--White);
