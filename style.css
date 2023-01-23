@@ -43,13 +43,15 @@ body{
     align-items: center;
     border-radius: 1em;
     padding: 2em;
-    height: 800px;
-    width: 400px;
+    max-height: 80%;
+    max-width: 60%;
+    margin: 0 auto;
 }
-img{
-    border-radius: 1em;
-    max-width: 95%;
-    max-height: 95%;
+.container img{
+    border-radius: 12.5%;
+    max-width: 90%;
+    max-height: 90%;
+    padding-block: 1em;
 }
 .mainContent{
    padding-block: 1em;
