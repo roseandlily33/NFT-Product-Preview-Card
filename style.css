@@ -49,14 +49,15 @@ body{
 }
 .container img{
     border-radius: 12.5%;
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 95%;
+    max-height: 95%;
     padding-block: 1em;
 }
 .mainContent{
    padding-block: 1em;
 
 } 
+/* Header and paragraph */
 h1{
     color: var(--White);
     font-size: var(--step-2);
@@ -67,6 +68,7 @@ p{
     padding-bottom: 1em;
     line-height: 1.8em;
 }
+/* Part above the line */
 .info{
     display: flex;
     flex-direction: row;
@@ -92,11 +94,13 @@ p{
 .days img{
     padding-inline: 1em;
 }
+/* Line */
 hr{
     color: var(--VerydarkblueLine);
     width: 100%;
 
 }
+/* User image and name at bottom */
 .user{
     display: flex;
     flex-direction: row;
@@ -115,4 +119,51 @@ hr{
 }
 .user span {
     color: var(--White);
+}
+
+/* Media Screens */
+@media screen and (max-width: 500px) {
+    .container{
+        padding: 1em;
+
+    }
+    h1{
+        font-size: var(--step--1);
+    }
+    p{
+        font-size: var(--step--2);
+    }
+    .info{
+        font-size: 0.5em;
+    }
+    .user{
+        display: flex;
+        flex-direction: column;
+        padding: 0.5em;
+    }
+    .user h4{
+        font-size: 0.3em;
+        padding-top: 1em;
+    }
+    .user img{
+       height: 50px;
+       width: 50px;
+    }
+    
+}
+@media screen and (max-width: 764px){
+
+    .user{
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+    .user h4{
+        font-size: 0.7em;
+        padding-top: 1em;
+    }
+    .user img{
+       height: 100px;
+       width: 100px;
+    }
 }
