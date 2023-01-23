@@ -32,6 +32,7 @@ body{
     align-items: center;
     min-height: 100vh;
     padding: 3em;
+    font-family: var(--Outfit);
 }
 .container{
     background-color: var(--VerydarkblueCard);
@@ -42,11 +43,74 @@ body{
     align-items: center;
     border-radius: 1em;
     padding: 2em;
-    height: 600px;
+    height: 800px;
     width: 400px;
 }
 img{
     border-radius: 1em;
     max-width: 95%;
     max-height: 95%;
+}
+.mainContent{
+   padding-block: 1em;
+
+} 
+h1{
+    color: var(--White);
+    font-size: var(--step-2);
+    padding-bottom: 1em;
+}
+p{
+    font-size: var(--step-0);
+    padding-bottom: 1em;
+    line-height: 1.8em;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: var(--step-0);
+    padding-bottom: 2em;
+}
+.eth{
+    color: var(--Cyan);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.eth img{
+    padding-inline: 1em;
+}
+.days{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.days img{
+    padding-inline: 1em;
+}
+hr{
+    color: var(--VerydarkblueLine);
+    width: 100%;
+
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding-block: 2em;
+}
+.user img{
+    border: 1px solid var(--White);
+    padding: 0;
+    border-radius: 50%;
+}
+.user h4{
+    display: flex;
+    align-items: center;
+}
+.user span {
+    color: var(--White);
 }
